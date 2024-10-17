@@ -2238,7 +2238,7 @@ get_cpu_count() {
   if [ "$(uname)" == "Darwin" ]; then
     echo $(sysctl -n hw.logicalcpu)
   else
-    echo $(nproc)
+    echo $(($(nproc)>20?20:$(nproc)))
   fi
 }
 

@@ -32,8 +32,8 @@ get_library_source() {
     SOURCE_TYPE="TAG"
     ;;
   ffmpeg)
-    SOURCE_REPO_URL="https://github.com/arthenica/FFmpeg"
-    SOURCE_ID="n6.0"
+    SOURCE_REPO_URL="https://git.v0l.io/ffmpeg/FFmpeg.git"
+    SOURCE_ID="n7.1"
     SOURCE_TYPE="TAG"
     ;;
   fontconfig)
